@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+digraph ${1:finite_state_machine} {
+	rankdir=LR;
+	size="8,5"
+	node [shape = doublecircle]; ${2://add for final state. e.g. LR_0 LR_3 LR_4 LR_8;}
+	node [shape = circle];
+	${3:// e.g.
+	LR_0 -> LR_2 [ label = "SS(B)" ];
+	LR_0 -> LR_1 [ label = "SS(S)" ];
+	}
+
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fsm</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.dot</scope>
+	<description>
+		@see http://www.graphviz.org/content/fsm
+	</description>
+</snippet>

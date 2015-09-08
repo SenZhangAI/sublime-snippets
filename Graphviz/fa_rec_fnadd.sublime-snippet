@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<f${1:1}> ${2:content}| ${3:add more ...}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fa</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.dot</scope>
+	<description>
+		Add a fn node in "record", fn is using for arrows,
+		should ALWAYS use it in a "rec" snippet.
+		@see http://www.graphviz.org/content/datastruct
+	</description>
+</snippet>
+

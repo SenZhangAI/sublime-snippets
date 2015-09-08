@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+"node${1:0}" [
+label = "<f0> ${2:note_name}| ${3:add note_name,if use <fn>, use fa+Enter}"
+shape = "record"
+];
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rec</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.dot</scope>
+	<description>
+		Generate a "record" graph, mostly used in Data Structures.
+		@see http://www.graphviz.org/content/datastruct
+	</description>
+</snippet>
